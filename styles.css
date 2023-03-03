@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0;500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	background-image: url("images/hero-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container {
+	/* Sizing */
+	height: 100vh;
+	width:  100%;
+	margin: 0 auto;
+}
+
+.hero  {
+	/* Background */
+	background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+	/*background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("images/hero-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+
+	/* Flexbox */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Test styles */
+	text-align: center;
+}
+
+.hero h1 {
+	/* Text styles */
+	font-size: 85px;
+	font-weight: 700;
+	color:  #fff;
+	text-shadow: 0 0 2px #000;
+
+	/*Margins*/
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.hero h2 {
+	/* Text styles */
+	font-size: 30px;
+	font-weight: 500;
+	text-shadow: 0 0 1px #000;
+	color:  #fff;
+
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.aka {
+	box-shadow: 0 4px 4px -2px #e7bb41;
+}
+
+.activities {
+	background: #f7f9f7;
+	color:  #393e41;
+	text-align: center;
+	overflow: auto;
+}
+
+.activities h2 {
+	font-size:  35px;
+	font-weight: 700;
+
+	text-shadow: 0 -1px 1px #393e41;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-color: #e7bb41;
+	margin:  50px auto 60px;
+}
+
+.card-container {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.activities .card-attraction {
+	width: 25%;
+	height: 60vh;
+	box-shadow: 0 0 15px 4px #253c78;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-attraction h3 {
+	color: #e7bb41;
+	text-shadow: 1px 1px 1px #393e41;
+}
+
+.card-attraction-img {
+	width: 100%;
+	height: 35%;
+}
+
+.card-attraction-body {
+	padding:  15px;
+	height: 65%;
+}
+
+p {
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+
+.card-attraction-body p {
+	font-size: 13px;
+	line-height: 20px;
+	text-align: justify;
+	padding-left: 6px;
+	padding-right: 6px;
+
+}
+
+button {
+	font-size: 13px;
+	letter-spacing: 2px;
+	padding: 8px 18px;
+	border-radius: 20px;
+	text-shadow: 0 0 1px #fff;
+	background: #541388;
+	box-shadow: 0 0 2px 1px #541388;
+	border:  none;
+	color: #fff;
+}
+
+.card-attraction button {
+	margin-top: 5px;
+}
+
+.card-attraction:hover {
+	box-shadow: 0 0 15px 4px #e7bb41;
+}
+
+.tour-guide {
+	background: rgba(84,19,136,.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background-image: linear-gradient(rgba(231,187,65,.6),rgba(231,187,65,.6)),url("images/hero-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;*/
+}
+
+.card-guide {
+	width:  600px;
+	height:  400px;
+	background: linear-gradient(to right,rgba(255,255,255,.9),rgba(255,255,255,.2));
+	box-shadow: 2px 4px 6px 2px #fff;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-guide-info {
+	width:  300px;
+	height: fit-content;
+}
+
+.guide-img {
+	width: 150px;
+	height:  150px;
+	border-radius: 50%;
+}
